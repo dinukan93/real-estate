@@ -1,0 +1,172 @@
+.properties-container {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  margin: 10px; 
+}
+
+.breadcrumb {
+  margin: 20px 50px;
+  font-size: 16px;
+  color: #666;
+}
+
+.breadcrumb .active {
+  color: #0c5922;
+  font-weight: bold;
+}
+
+
+.search-container {
+  background: #f0f0f0;
+  margin: 20px 0;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.search-title {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.search-title .highlight {
+  color: #0c5922;
+  font-weight: bold;
+}
+
+
+.search-filters {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.filter label {
+  font-size: 14px;
+  color: #333;
+}
+
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.properties-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.properties-list, .favorites-list {
+  width: 48%;
+}
+
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.property-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.property-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.property-details {
+  padding: 15px;
+}
+
+.property-details h4 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.property-details p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.favorite-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.favorite-item img {
+  margin-right: 10px;
+}
+
+.favorites-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 20px; 
+}
+
+.favorites-container h3 {
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .properties-layout {
+    flex-direction: column;
+  }
+
+  .properties-list, .favorites-list {
+    width: 100%;
+  }
+
+  .filter {
+    width: 100%;
+  }
+
+  .properties-grid,
+  .favorites-grid {
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+  }
+
+  .property-card img {
+    height: 200px; /*Adjust image height for mobile*/
+  }
+
+  .property-details p {
+    font-size: 12px; /*Adjust text size for mobile*/
+  }
+}

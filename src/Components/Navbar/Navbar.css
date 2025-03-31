@@ -1,0 +1,113 @@
+.nav-header {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    padding: 5px 10%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    height: 60px; /*fixed height*/
+}
+
+.logo {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #0d0d0d;
+    transition: .5s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.content {
+    padding-top: 80px; /*Adjust to match navbar height*/
+}
+
+.logo-img {
+    height: 60px;
+    width: auto; 
+    margin-left: -60px; /*move logo to left*/
+}
+
+/* Large Devices*/
+@media (min-width: 1024px) {
+    .nav-header {
+        padding: 5px 15%; 
+    }
+
+    .navbar a {
+        font-size: 20px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+}
+
+/* Medium Devices*/
+@media (max-width: 1024px) and (min-width: 768px) {
+    .nav-header {
+        padding: 5px 10%; 
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .logo-img {
+        height: 50px;
+    }
+}
+
+/*Small Devices*/
+@media (max-width: 600px) {
+    .nav-header {
+        flex-direction: column; /*navbar items vertically */
+        padding: 10px 5%;
+        height: auto;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .logo {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .logo-img {
+        height: 40px; 
+        margin-left: 0;
+    }
+}

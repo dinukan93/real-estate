@@ -1,0 +1,180 @@
+{
+	"properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":750000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
+			"picture": "prop1.1.jpg",
+            "images": [
+                "prop1.2.jpg",
+                "prop1.3.jpg",
+                "prop1.4.jpg",
+                "prop1.5.jpg",
+                "prop1.6.jpg"
+            ],
+            "floorPlan": "prop1fp.png",
+            "locationMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.6746898739007!2d0.07950857633147874!3d51.390656671786935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1736143963567!5m2!1sen!2slk",
+			"url":"properties/prop1.html",
+            "added": {
+                "month":"October",
+                "day":12,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop2",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":399995,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location":"Crofton Road Orpington BR6",
+			"picture":"prop2.1.jpg",
+            "images": [
+                "prop2.2.jpg",
+                "prop2.3.jpg",
+                "prop2.4.jpg",
+                "prop2.5.jpg",
+                "prop2.6.jpg"
+            ],
+            "floorPlan": "prop2fp.png",
+            "locationMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1245.3336758273746!2d0.0895639388281867!3d51.374123167291234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6c9e6a7fd7%3A0x62f66c5a065a6c38!2sHigh%20St%2C%20Orpington%20BR6%2C%20UK!5e0!3m2!1sen!2slk!4v1736143760186!5m2!1sen!2slk",
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop3",
+			"type":"House",
+            "bedrooms":4,
+			"price":950000,
+			"tenure":"Freehold",
+			"description":"A stunning four bedroom detached family home in a desirable area. The property is located within walking distance to local amenities and has easy access to major transport links. The spacious interior includes a large living room, a separate dining room, a modern kitchen with integrated appliances, and a study. The first floor has four generously sized bedrooms, including a master suite with en-suite bathroom. Outside, there is a well-maintained garden and a double garage.",
+			"location":"Cedar Avenue, Bromley, BR2",
+			"picture":"prop3.1.jpg",
+            "images": [
+                "prop3.2.jpg",
+                "prop3.3.jpg",
+                "prop3.4.jpg",
+                "prop3.5.jpg",
+                "prop3.6.jpg"
+            ],
+            "floorPlan": "prop3fp.png",
+            "locationMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.8661636128936!2d0.03122050000002772!3d51.40551379999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aa4690c1c21f%3A0x541002f3ce7a9476!2sCedar%20Rd%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2slk!4v1736144090508!5m2!1sen!2slk",
+			"url":"properties/prop3.html",
+            "added": {
+                "month":"December",
+                "day":5,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop4",
+			"type":"Flat",
+            "bedrooms":1,
+			"price":280000,
+			"tenure":"Leasehold",
+			"description":"This modern one bedroom flat is located in a central location with easy access to public transport and shops. The flat features an open plan living area with a fully fitted kitchen, a spacious bedroom, and a contemporary bathroom. The property also benefits from a private balcony with views of the surrounding area. Ideal for first-time buyers or investors.",
+			"location":"High Street, Orpington, BR6",
+			"picture":"prop4.1.jpg",
+            "images": [
+                "prop4.2.jpg",
+                "prop4.3.jpg",
+                "prop4.4.jpg",
+                "prop4.5.jpg",
+                "prop4.6.jpg"
+            ],
+            "floorPlan": "prop4fp.png",
+            "locationMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.3478638126353!2d0.09880647633065874!3d51.37828437178429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac8573d78f3b%3A0x7d522295673918bb!2sHigh%20St.%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1736144170068!5m2!1sen!2slk",
+			"url":"properties/prop4.html",
+            "added": {
+                "month":"November",
+                "day":18,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop5",
+			"type":"House",
+            "bedrooms":5,
+			"price":1250000,
+			"tenure":"Freehold",
+			"description":"A beautifully presented five bedroom detached house in a sought-after location. The property boasts a spacious kitchen with breakfast bar, a large living room with bi-fold doors leading to the garden, and a formal dining room. The master bedroom includes an en-suite bathroom, and there are four further bedrooms and a family bathroom. The property is set within a large plot with a landscaped garden and off-street parking for multiple vehicles.",
+			"location":"Broomfield Road, Bromley, BR1",
+			"picture":"prop5.1.jpg",
+            "images": [
+                "prop5.2.jpg",
+                "prop5.3.jpg",
+                "prop5.4.jpg",
+                "prop5.5.jpg",
+                "prop5.6.jpg"
+            ],
+            "floorPlan": "prop5fp.png",
+            "locationMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.1739631417827!2d-0.04120722366789613!3d51.3998581717891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487601a585a808ad%3A0x6e2d01e35aa2e413!2sBroomfield%20Rd%2C%20Beckenham%2C%20UK!5e0!3m2!1sen!2slk!4v1736144268884!5m2!1sen!2slk",
+			"url":"properties/prop5.html",
+            "added": {
+                "month":"October",
+                "day":30,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop6",
+			"type":"Flat",
+            "bedrooms":3,
+			"price":450000,
+			"tenure":"Leasehold",
+			"description":"A spacious three bedroom apartment located in a popular residential area. The flat features a large open plan living room, a modern kitchen with integrated appliances, three good-sized bedrooms, and a family bathroom. The property is within walking distance to local shops and transport links, making it ideal for commuters. There is also a private balcony with scenic views.",
+			"location":"Pinewood Avenue, Orpington, BR5",
+			"picture":"prop6.1.jpg",
+            "images": [
+                "prop6.2.jpg",
+                "prop6.3.jpg",
+                "prop6.4.jpg",
+                "prop6.5.jpg",
+                "prop6.6.jpg"
+            ],
+            "floorPlan": "prop6fp.png",
+            "locationMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.3896035960747!2d0.08203627632939581!3d51.35913397178005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab5a5091804d%3A0xbb4605b13e26f0a7!2sPinewood%20Dr%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1736144347298!5m2!1sen!2slk",
+			"url":"properties/prop6.html",
+            "added": {
+                "month":"September",
+                "day":25,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop7",
+			"type":"House",
+            "bedrooms":2,
+			"price":500000,
+			"tenure":"Freehold",
+			"description":"This charming two bedroom cottage is perfect for a small family or as a starter home. The property has a cozy living room with a feature fireplace, a kitchen with modern appliances, and two bedrooms with ample storage space. The garden is a good size, with a patio area for outdoor dining. Located in a quiet cul-de-sac, the property is close to local amenities and schools.",
+			"location":"Green Lane, Orpington, BR7",
+			"picture":"prop7.1.jpg",
+            "images": [
+                "prop7.2.jpg",
+                "prop7.3.jpg",
+                "prop7.4.jpg",
+                "prop7.5.jpg",
+                "prop7.6.jpg"
+            ],
+            "floorPlan": "prop7fp.png",
+            "locationMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.5136206637776!2d0.06144327633409572!3d51.4303606717959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8abdf644e21d3%3A0xd9dc40fae87f4b67!2sGreen%20Ln%2C%20United%20Kingdom!5e0!3m2!1sen!2slk!4v1736144444893!5m2!1sen!2slk",
+			"url":"properties/prop7.html",
+            "added": {
+                "month":"August",
+                "day":12,
+                "year":2022
+            }
+        }
+	]
+}
+

@@ -1,0 +1,61 @@
+.header-home {
+  width: 100%;
+  height: 100vh; /* Full-screen height */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(7, 7, 7, 0.5);
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 1.5rem;
+}
+
+
+
+/* Large Devices*/
+@media (min-width: 1024px) {
+  .overlay h1 {
+    font-size: 3.5rem; 
+  }
+
+  .overlay p {
+    font-size: 1.8rem; 
+  }
+}
+
+/* Small Devices*/
+@media (max-width: 600px) {
+  .header-home {
+    height: 60vh; 
+  }
+
+  .overlay {
+    padding: 15px; 
+  }
+
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .overlay p {
+    font-size: 1.2rem; 
+  }
+}

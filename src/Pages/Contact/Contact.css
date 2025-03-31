@@ -1,0 +1,187 @@
+.contact-path {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 50px;
+}
+
+.contact-info {
+  width: 45%;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0c5922;
+  margin-bottom: 10px;
+}
+
+.contact-details, .contact-extra, .working-hours {
+  margin-bottom: 15px;
+}
+
+.contact-details div, .contact-extra div {
+  margin-bottom: 10px;
+}
+
+.contact-extra a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.working-hours p {
+  margin: 5px 0;
+}
+
+.inquiry-form {
+  width: 50%;
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.light-text {
+  color: #999;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-group div {
+  flex: 1;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+span {
+  color: red;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.send-button {
+  background-color: red;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.send-button:hover {
+  background-color: darkred;
+}
+
+
+
+/* Large Devices*/
+@media (min-width: 1024px) {
+  .contact-container {
+    padding: 50px 10%;
+    gap: 50px;
+  }
+
+  .contact-info {
+    width: 45%;
+  }
+
+  .inquiry-form {
+    width: 50%;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  label {
+    font-size: 18px;
+  }
+}
+
+/* Medium Devices*/
+@media (max-width: 1024px) and (min-width: 768px) {
+  .contact-container {
+    padding: 40px 5%;
+    gap: 40px;
+  }
+
+  .contact-info {
+    width: 50%;
+  }
+
+  .inquiry-form {
+    width: 50%;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .send-button {
+    font-size: 14px; 
+  }
+}
+
+/* Small Devices*/
+@media (max-width: 600px) {
+  .contact-path {
+    margin-left: 0;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 20px 10%;
+    gap: 20px;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+
+  .inquiry-form {
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  .send-button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
